@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+.header{
+  background: indianred;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+.body ul{
+  margin:0px;
+  padding:15px;
+
+}
+.body ul li{
+  outline-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: beige;
+    margin-left:80px;
+    margin-right: 80px;
+    font-size: 30px;
+
+}
+
+.body ul li button{
+  cursor: pointer;
+  border: none;
+    border-radius: 41px;
+    height: 40px;
+    width: 40px;
+    background: indianred;
+    color: white;
+    float:right;
+    box-shadow: 3px 3px 4px;
+}
+.footer{
+  bottom: 0px;
+    background: indianred;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+}
+.footer input:focus{outline: none}
+.footer input{
+
+  border-bottom: 2px solid #fff;
+    
+    width: 90%;
+    border: none;
+    background: transparent;
+    color: #fff;
+    height: 35px;
+    margin-left:200px;
+    padding: 10px;
+    font-size: 28px;
+    
+}
+.footer button:focus{outline: none}
+.footer button{
+  cursor: pointer;
+  position: absolute;
+    color: #fff;
+    background: indianred;
+    bottom: 45px;
+    right: 250px;
+    height: 45px;
+    width: 45px;
+    
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px;
+}
+
+#update{
+  cursor: pointer;
+    position: absolute;
+    color: #fff;
+    background: indianred;
+    bottom: 45px;
+    right: 250px;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    border: none;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px;
+    display: none;
+}
+.edititem{
+  font-size: 16px;
+  margin-right: 10px;
+}
